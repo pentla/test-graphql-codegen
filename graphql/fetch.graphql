@@ -1,0 +1,8 @@
+# Original code is here https://github.com/hokaccha/graphql-codegen-example-for-techlife
+query getRecipe($id: Int!) {
+  recipe(id: $id) {
+    id
+    title
+    imageUrl
+  }
+}

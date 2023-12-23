@@ -1,0 +1,19 @@
+{
+  "name": "codegen-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "codegen": "graphql-codegen --config codegen.yml"
+  },
+  "dependencies": {
+    "@graphql-codegen/cli": "^5.0.0",
+    "@graphql-codegen/typescript": "^4.0.1",
+    "@graphql-codegen/typescript-graphql-request": "^6.1.0",
+    "@graphql-codegen/typescript-operations": "^4.0.1",
+    "graphql": "^16.8.1",
+    "graphql-request": "5.0.0",
+    "graphql-tag": "^2.12.6",
+    "typescript": "^5.3.3"
+  }
+}

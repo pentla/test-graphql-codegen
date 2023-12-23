@@ -1,0 +1,10 @@
+# Original code is here https://github.com/hokaccha/graphql-codegen-example-for-techlife
+type Recipe {
+  id: Int!
+  title: String!
+  imageUrl: String
+}
+
+type Query {
+  recipe(id: Int!): Recipe!
+}
